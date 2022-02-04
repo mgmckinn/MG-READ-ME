@@ -3,10 +3,14 @@
     const generateReadme = require("./utils/generateMarkdown");
     const utils = require("utils");
     const fs = require('fs');
-const { type } = require("os");
+    const { type } = require("os");
    
 // TODO: Create an array of questions for user input
-const questions = [{
+function promptForQuestion(){
+    return inquirer.prompt(
+}
+const questions = [
+    {
     type: "input",
     message: "What is the title of the project?",
     name: "title"
@@ -26,15 +30,14 @@ const questions = [{
         message: "What steps are required to install the project? Give a step by step description",
         name: "installation"
     },
-
+    {
         type: "input",
         message: "Present insturctions on setting up your project and exaamples listing steps", 
-        name: "usage"
-
+        name:"usage"
     },
     {
         type: "list",
-        message: "Choose license for your project",
+        message: "By which license is the project covered?",
         choices: [
             "Apache",
             "Academic",
@@ -57,10 +60,10 @@ const questions = [{
     },
     {
         type: "input",
-        
-
-    }
-}];
+        message: "Who do I contact with questions about the project? Please include GitHub user information and email address",
+        name: "questions"
+}
+];
 
 // TODO: Create a function to write README file
 
