@@ -7,8 +7,8 @@
    
 // TODO: Create an array of questions for user input
 function promptForQuestion(){
-    return inquirer.prompt(
-}
+    return inquirer.prompt('questions')
+};
 const questions = [
     {
     type: "input",
@@ -67,10 +67,25 @@ const questions = [
 
 // TODO: Create a function to write README file
 
-function writeToFile(fileName, data) {}
+fs.writeToFile('README.md', 'questions', (err) => {
+    if (err) {
+        console.log(err);
+        return 
+    }
+    console.log('file written successfully')
+
+})
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    inquirer.prompt(questions)
+    .then((inquirerResponse, data) => {
+        console.log("Create ReadMe");
+        fs.writeFileSync("ReadMe.md", inquirerResponse, data);
+}).catch((err) => {
+    console.log(err);
+})
+}
 
 // Function call to initialize app
 init();
