@@ -3,10 +3,9 @@
     const generateReadme = require("./utils/generateMarkdown");
     const utils = require("utils");
     const fs = require('fs');
-    const { type } = require("os");
    
 // TODO: Create an array of questions for user input
-function promptForQuestion(){
+function promptForQuestion() => {
     return inquirer.prompt('questions')
 };
 const questions = [
@@ -88,4 +87,15 @@ function init() {
 }
 
 // Function call to initialize app
-init();
+questions()
+.then((answers) => {
+return generateReadme(answers);
+})
+
+.then(data => {
+    return writefile(data);
+})
+.catch((err) => {
+    console.log(err);
+})
+
