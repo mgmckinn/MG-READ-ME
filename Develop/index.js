@@ -70,7 +70,7 @@ function WriteToFile(fileName, data) {
 function init() {
   inquirer
     .prompt(questions)
-    .then((inquirerResponse, data) => {
+    .then( (inquirerResponse, data) => {
       console.log("Create ReadMe");
       WriteToFile("ReadMe.md", generateReadme(inquirerResponse));
     })

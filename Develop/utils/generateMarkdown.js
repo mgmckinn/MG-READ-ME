@@ -1,8 +1,9 @@
+
 // TODO:  
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   if(license !== null) {
-    return `![GitHub licenses](https://img.shields.io/badge/license-${license}-blue.svg)`
+    return `![badge](https://img.shields.io/badge/license-${answers.license}-brightgreen)`
   }
   return ""
 }
@@ -22,36 +23,48 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
   if(license !== null) {
     return(`## license
-    this repository is licensed under${license}license`)
+    this repository is licensed under ${license}license`)
   }
 }
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title}
+  return `
+  # ${data.title}
   ${data.GitHub}
   ${renderLicenseSection(data.license)}
+  
   ##Description
   ${data.description}
+  
   ##Table of Contents
   *[Installion](#installation)
-  *Usage: ${#usage}
+  *Usage (#usage)
   ${renderLicenseSection(data.license)}
   *[Contributors](#contributors)
   *[Tests](#tests)
   *[Questions](#questions)
+  
   ##Installation
+  
   The following commands will be used to download the necessary packages for this project:
   ${data.install}
+  
   ##Usage
   ${data.usage}
   ${renderLicenseSection(data.license)}
+  
+  ##License
+  ![badge](https://img.shields.io/badge/license-${answers.license}-brightgreen)<br />
+  
   ##Contributors
   ${data.contributors}
+  
   ##Tests
   ${data.tests}
   Use this command for running tests:
   ${data.tests}
+  
   ##Questions
   GitHub Name: ${data.github}
   E-mail: ${data.email}
