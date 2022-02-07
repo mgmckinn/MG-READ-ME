@@ -1,17 +1,17 @@
 
-  # dd
+  # k
   undefined
   ## license
-    this repository is licensed under Apachelicense
+    this repository is licensed under Openlicense
   
   ##Description
-  d
+  k
   
   ##Table of Contents
   *[Installion](#installation)
   *Usage (#usage)
   ## license
-    this repository is licensed under Apachelicense
+    this repository is licensed under Openlicense
   *[Contributors](#contributors)
   *[Tests](#tests)
   *[Questions](#questions)
@@ -22,20 +22,20 @@
   undefined
   
   ##Usage
-  d
+  k
   ## license
-    this repository is licensed under Apachelicense
+    this repository is licensed under Openlicense
   
   ##License
-  ![badge](https://img.shields.io/badge/license-Apache-brightgreen)
+  ![badge](https://img.shields.io/badge/license-Open-brightgreen)
   
   ##Contributors
-  d
+  k
   
   ##Tests
-  d
+  k
   Use this command for running tests:
-  d
+  k
   
   ##Questions
   GitHub Name: undefined
