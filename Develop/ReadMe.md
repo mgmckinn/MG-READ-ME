@@ -33,4 +33,4 @@ k
 <br />
 ✉️ Email me with any questions: undefined<br /><br />
 
-_This README was generated with ❤️ by [README-generator](https://github.com/markcfleming1990/README-generator) 🔥🔥🔥_
+_This README was generated with ❤️ by [README-generator](https://github.com/mgmckinn/MG-READ-ME)

@@ -52,8 +52,8 @@ ${data.usage}
 ![badge](https://img.shields.io/badge/license-${data.license}-brightgreen)
 <br />
 This application is covered by the ${data.license} license. 
-## Contributing
- ${data.contributing}
+## contributors
+ ${data.contributors}
 ## Tests
 ${data.tests}
 ## Questions
