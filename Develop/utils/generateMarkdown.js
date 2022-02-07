@@ -63,7 +63,7 @@ ${data.tests}
 <br />
 ✉️ Email me with any questions: ${data.email}<br /><br />
 
-_This README was generated with ❤️ by [README-generator](https://github.com/mgmckinn/MG-READ-ME)
+_This README was generated with ❤️ by [MG-READ-ME](https://github.com/mgmckinn/MG-READ-ME)
 `;
   };
 
