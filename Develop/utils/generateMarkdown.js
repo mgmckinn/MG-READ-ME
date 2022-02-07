@@ -3,7 +3,7 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   if(license !== null) {
-    return `![badge](https://img.shields.io/badge/license-${data.license}-brightgreen)`
+    return `![badge](https://img.shields.io/badge/license-${data.license}-brightorange)`
   }
   return ""
 }
@@ -63,7 +63,7 @@ ${data.tests}
 <br />
 ✉️ Email me with any questions: ${data.email}<br /><br />
 
-_This README was generated with ❤️ by [README-generator](https://github.com/markcfleming1990/README-generator) 🔥🔥🔥_
+_This README was generated with ❤️ by [README-generator](https://github.com/mgmckinn/MG-READ-ME)
 `;
   };
 
