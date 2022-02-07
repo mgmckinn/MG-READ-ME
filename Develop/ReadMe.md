@@ -1,5 +1,5 @@
 
-  # k
+  # 
   undefined
   ## license
     this repository is licensed under Openlicense
@@ -22,8 +22,8 @@ k
 ![badge](https://img.shields.io/badge/license-Open-brightgreen)
 <br />
 This application is covered by the Open license. 
-## Contributing
- undefined
+## contributors
+ k
 ## Tests
 k
 ## Questions
