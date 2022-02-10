@@ -30,7 +30,7 @@ This repository is licensed under the ${license} license`)
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
 return `
-<h1 align="center font-size=20px font-weight=bold">${data.title}</h1>
+<h1 align=center font-size=20px font-weight=bold>${data.title}</h1>
 
 ## Description
 ${data.description}

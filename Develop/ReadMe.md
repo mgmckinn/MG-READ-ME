@@ -1,8 +1,8 @@
 
-<h1 align="center font-size=20px font-weight=bold">sdfgasdfgasdfgasdfg</h1>
+<h1 align=center font-size=20px font-weight=bold>MG-READ-ME</h1>
 
 ## Description
-asdgasdgasdgasd
+This is a ReadME.md Generator that will allow users to answer a list of questions in order to build a professional ReadMe.md for any project.
 
 ## Table of Contents
 - [Description](#description)
@@ -12,33 +12,32 @@ asdgasdgasdgasd
 - [Contributors](#contributors)
 - [Tests](#tests)
 - [Questions](#questions)
-- [Username](#username)
-- [Email](#email)
+
 
 ## Installation 
-gsdagasdgsadgasdg
+npm install and npm i inquirer
 
 ## Usage
-asdgasdgasdgasdg
+First you will open your terminal, in the terminal you will type npm install followed by npm i inquirer, then you will  type 'node index', you will answer a list of questions, finally you will press enter at the end of the list of questions and a README.md file will generate
 
 # License
-![badge](https://img.shields.io/badge/license-Apache-brightgreen)
+![badge](https://img.shields.io/badge/license-MIT-brightgreen)
 <br />
-This application is covered by the Apache License. 
+This application is covered by the MIT License. 
 
 ## Contributors
- asdgsadgasdg
+ Mitch McKinney
 
 ## Tests
-asdgsadg
+No tests
 
 ## Questions
- asdgasdg<br />
+ Mitch McKinney<br />
 <br />
 
-Find me on GitHub: [asdgasdgasdg](https://github.com/asdgasdgasdg)<br />
+Find me on GitHub: [mgmckinn](https://github.com/mgmckinn)<br />
 <br />
 
-Email me: adsgsadgasdgasdgasdga<br /><br />
+Email me: mgmckinn2325@me.com<br /><br />
 
 This README was generated with by [MG-READ-ME](https://github.com/mgmckinn/MG-READ-ME)
