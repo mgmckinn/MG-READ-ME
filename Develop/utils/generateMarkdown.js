@@ -44,7 +44,9 @@ ${data.description}
 - [Tests](#tests)
 - [Questions](#questions)
 
-## Installation ${data.installation}
+
+## Installation 
+${data.installation}
 
 ## Usage
 ${data.usage}
@@ -67,7 +69,7 @@ ${data.tests}
 Find me on GitHub: [${data.username}](https://github.com/${data.username})<br />
 <br />
 
-Email me with any questions: ${data.email}<br /><br />
+Email me: ${data.email}<br /><br />
 
 This README was generated with by [MG-READ-ME](https://github.com/mgmckinn/MG-READ-ME)`;
   };
